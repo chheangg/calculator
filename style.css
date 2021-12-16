@@ -1,0 +1,70 @@
+@font-face { font-family: D-DIN; src: url("./fonts/D-DINExp-Bold.otf"); font-weight: bold;} 
+@font-face { font-family: D-DIN; src: url("./fonts/D-DIN.otf");} 
+
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: #A59E8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+.display {
+
+}
+
+.display-sign {
+    margin-top: 0px;
+    height: 5px;
+    font-size: 36px;
+}
+
+.field {
+    padding-right: 7.5px;
+    height: 10px;
+}
+
+.container {
+    max-width: 410px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    background-color: #66635B;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #D7CEB2;
+	border: none;
+    width: 100px;
+    height: 100px; 
+    font-size: 44px;
+    font-family: 'D-DIN', sans-serif;
+    font-weight: bold;
+    color: #F6F5F4;
+}
+
+.equal {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: auto;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-family: 'D-DIN', sans-serif;
+    font-size: 24px;
+
+}
