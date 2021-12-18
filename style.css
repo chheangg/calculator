@@ -67,18 +67,21 @@ button {
     transition-duration: 0.04s;
 }
 
-button:hover {
+.number:hover {
     background-color: #d7ceb2d5;
     color: #FFF;
 }
 
 .special {
-
-}
-
-.special {
     background-color: #C95E2C;
+    color: #FFF;
 }
+
+.special:hover {
+    background-color: #c95e2cd7;
+    color: #FFF;
+}
+
 .equal {
     grid-column-start: 3;
     grid-column-end: 5;
